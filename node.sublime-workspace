@@ -1,0 +1,714 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"require (fn/1)"
+			],
+			[
+				"response",
+				"response (obj)"
+			],
+			[
+				"write",
+				"write (fn/1)"
+			],
+			[
+				"resp",
+				"response (obj)"
+			],
+			[
+				"set",
+				"setHeader (fn/2)"
+			],
+			[
+				"reque",
+				"request"
+			],
+			[
+				"request",
+				"request (obj)"
+			],
+			[
+				"cons",
+				"console (obj)"
+			],
+			[
+				"createServer",
+				"createServer (fn/1)"
+			],
+			[
+				"htt",
+				"http (obj)"
+			],
+			[
+				"http",
+				"http (obj)"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"ht",
+				"hasOwnProperty(prop)"
+			],
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"print",
+				"printHello"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"func",
+				"function〔keyword〕"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"incl",
+				"include	(Our_Staff.php)"
+			],
+			[
+				"resdriver",
+				"res_drivers"
+			],
+			[
+				"driver",
+				"driver_details_sql"
+			],
+			[
+				"out",
+				"out_selected_driver"
+			],
+			[
+				"res",
+				"res_schedule"
+			],
+			[
+				"sql",
+				"sql_schedule"
+			],
+			[
+				"defaul",
+				"default_time"
+			],
+			[
+				"display",
+				"display_scheduling	(Cab_Manager_login.php)"
+			],
+			[
+				"emp",
+				"emp_id"
+			],
+			[
+				"default",
+				"date_default_timezone_set"
+			],
+			[
+				"produc",
+				"product_max_bid"
+			],
+			[
+				"bid",
+				"bidding"
+			],
+			[
+				"user",
+				"user_bids"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"product",
+				"product_min_bid"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_row"
+			],
+			[
+				"the",
+				"theDriver"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"loca",
+				"location_id"
+			],
+			[
+				"update",
+				"update_query"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"min",
+				"min_point"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"mysql_fetc",
+				"mysql_fetch_array"
+			],
+			[
+				"hea",
+				"header	(index.php)"
+			],
+			[
+				"comm",
+				"commentsDecoded"
+			],
+			[
+				"tead",
+				"thead	Tag"
+			],
+			[
+				"varia",
+				"variables	(_variables.less)"
+			],
+			[
+				"retu",
+				"return_array"
+			],
+			[
+				"user_info",
+				"user_information"
+			],
+			[
+				"cookie",
+				"cookie_token"
+			],
+			[
+				"test",
+				"testArray"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"mysql_fetch_",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_row"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_object"
+			],
+			[
+				"id",
+				"id	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/xMac/Learn/node",
+		"/Users/xMac/Learn/node/lesson5/example-express-app",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/public",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/routes",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/views",
+		"/Users/xMac/Learn/node/lesson5/node_modules"
+	],
+	"file_history":
+	[
+		"/Users/xMac/Learn/node/lesson5/example-express-app/bin/www",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/routes/users.js",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/app.js",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/routes/index.js",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/views/index.ejs",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/views/error.ejs",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/node_modules/body-parser/index.js",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/package.json",
+		"/Users/xMac/Learn/node/lesson5/example-express-app/public/stylesheets/style.css",
+		"/Users/xMac/Learn/node/lesson5/server.js",
+		"/Users/xMac/Learn/node/node.sublime-project",
+		"/Users/xMac/Learn/node/.tern-project",
+		"/Users/xMac/Learn/node/lesson4/server.js",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/User/TernJS.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/TernJS/TernJS.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/xMac/Learn/node/readme.md",
+		"/Users/xMac/Learn/node/lesson1/app.js",
+		"/Users/xMac/Learn/node/lesson2/app.js",
+		"/Users/xMac/Learn/node/lesson3/app.js",
+		"/Users/xMac/Learn/node/lesson3/user.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/soptthis/solution3.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/soptthis/solution1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/soptthis/solution2.html",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/xMac/Library/Application Support/Sublime Text 3/Packages/User/node.sublime-build",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/soptthis/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/drop_menu/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/agenda-views_days.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/schedule.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/Our_Staff.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/agenda-views.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/consolidated.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/order_success.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/db_con.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/signup.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/css/style2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/register_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/login_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/select_services.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/My_Appointment.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/Spa_Website/admin/database.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/Manager_login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/css/style1.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/cabsystem.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/Cab_Manager_login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/driver_update.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/driver_update_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/driver_crud.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/driver_show.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/auto_bidding/auto_bidding.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/auto_bidding/user.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/card_raising.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/display_scheduling.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/card_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem_old/cabsystem.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/Emp_registration_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/Emp_login_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/db_con.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/aupload.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/upload_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/crop_and_analyse.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/database/govt_database.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/db_con.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/js/jquery_migrate.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/index_check1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/DocumentSUIP-28Feb ori/database/a_person_database.sql",
+		"/Volumes/PENDRIVE/new/user.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/Emp_registration.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/cabsystem.sql",
+		"/Users/xMac/Desktop/desktop_data/Proposal Document",
+		"/Users/xMac/Desktop/desktop_data/jquery-addresspicker-master/demos/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/img/portfolio/01.jpg",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/js/jquery-ui.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Student_Projects/cabsystem/theme/css/demo.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/php_google_maps/cities.kml",
+		"/Applications/XAMPP/xamppfiles/htdocs/php_google_maps/cluster.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/src/OAuth2/Autoloader.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/src/OAuth2/Controller/AuthorizeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/client/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/client/redirect_uri.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/login_check.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/all_user_data.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/authorize.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server/resource.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/resource.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/token.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/authorize.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/src/OAuth2/Request.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/my-oauth2-walkthrough/src/OAuth2/Server.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/client/twoleggedtwitter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/hello.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/OAuthServer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/OAuthRequestVerifier.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/core/templates/register.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/client/twoleggedtest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/request_token.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/oauth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/OAuthRequest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-client/request_token.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/www/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/core/templates/register.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/www/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/store/OAuthStoreSQL.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/OAuthStore.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/library/OAuthRequestSigner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/core/init.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/core/templates/index.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-client/callback.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/core/templates/logon.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-php/example/server/www/logon.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth-client/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/core/init.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/www/logon.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth_demo/vendor/oauth-php/oauth-php/example/server/core/templates/logon.tpl"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/1_DEMO_OAuth/server",
+			"/Applications/XAMPP/xamppfiles/htdocs/oauth-php",
+			"/Users/xMac/Projects/development/sync_remedies",
+			"/Applications/XAMPP/xamppfiles/htdocs/firefly-central",
+			"/Applications/XAMPP/xamppfiles/htdocs/firaa",
+			"/Applications/XAMPP/xamppfiles/htdocs/firaa/firaa",
+			"/Applications/XAMPP/xamppfiles/htdocs/siwapp",
+			"/Applications/XAMPP/xamppfiles/htdocs/firaa/firaa"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"\");\n",
+			"auto_complete",
+			");",
+			"}	",
+			"		\n",
+			"calendar",
+			"2016-03-02",
+			"yes",
+			"                        <tr>\n                            <th colspan=\"7\" align=\"left\">Driver information</th>\n                        </tr>\n",
+			"#register, #login",
+			"#wrapper a",
+			"28/02/2016",
+			"        // jQuery(document).ready(function(){\n\n        //     jQuery('#cropbox').Jcrop({\n        //         onChange: showCoords,\n        //         onSelect: showCoords\n        //     });\n\n        // });\n\n        // // Our simple event handler, called from onChange and onSelect\n        // // event handlers, as per the Jcrop invocation above\n        // function showCoords(c)\n        // {\n        //     jQuery('#x').val(c.x);\n        //     jQuery('#y').val(c.y);\n        //     jQuery('#x2').val(c.x2);\n        //     jQuery('#y2').val(c.y2);\n        //     jQuery('#w').val(c.w);\n        //     jQuery('#h').val(c.h);\n        // };\n",
+			"{\n",
+			"fileToUpload",
+			"form-control",
+			"mysql_fetch_array",
+			"	// // Get the Response Data\n	// $params = array(\n	//    \"access_token\" => $auth_token,\n	// );	 \n	// echo $auth_token = httpPostWithoutPassword(\"http://localhost/1_DEMO_OAuth/server/resource.php\", $params);\n",
+			"handleAuthorizeRequest",
+			"createDefaultTokenController",
+			"getTokenController",
+			"verifyIfSigned",
+			"setParam",
+			"updateConsumer",
+			"<?",
+			"updateConsumer",
+			"urlencode",
+			"getParam",
+			"verifyIfSigned",
+			"smarty",
+			"server",
+			"?>",
+			"Inside -> Call to setState",
+			"\">\n",
+			">\n",
+			"#337ab7",
+			"@navbar-default-bg",
+			"@border-radius-base",
+			"@screen-sm-min",
+			"grid",
+			"h2",
+			"						</",
+			"  \n",
+			"fa-css-prefix",
+			"@vertical-menu-pills-active-link-hover-color",
+			"@vertical-menu-link-color",
+			"@vertical-menu-pills-active-link-hover-bg",
+			"@vertical-link-hover-bg",
+			"@vertical-menu-pills-active-link-hover-bg",
+			"@vertical-menu-pills-active-link-hover-color",
+			"@component-active-color",
+			"@border-radius-base",
+			" @link-color",
+			"@gray-lighter",
+			"nav-stacked",
+			"all",
+			"nav-pills",
+			"\n				",
+			"navbar-default",
+			"boxy",
+			"cass_activity",
+			" onclick=\"show_invoice();\"",
+			" onclick=\"show_invoice();",
+			"<td onclick=\"show_invoice();\"><a href=\"#pdf\" class=\"btn-default btn btn-sm\"> PDF </a></td>",
+			">\n",
+			"d>",
+			"show_invoice",
+			"txtForotPassword",
+			"();                ",
+			"getLabelHtml",
+			"getUserDetailsByUsername",
+			"404",
+			";\n",
+			"urlAccess",
+			"search",
+			"myLikes",
+			"tripPost",
+			"featureTrip",
+			"delete",
+			"			   				\n",
+			"e()",
+			"login_form_modal",
+			"login()",
+			"ajax",
+			"login_button_modal",
+			"Please enter your Username",
+			"/login",
+			"login_button_modal",
+			"Login to your Account",
+			"MODAL",
+			"{include file=\"modal.tpl\"}",
+			"modal.tpl",
+			"Login to your Account",
+			"padding-top: 5%; overflow: hidden; display: block;",
+			"\");\n",
+			"        ",
+			"open",
+			"Explore",
+			"{include file",
+			");\n",
+			"featureTrip",
+			"featured",
+			"get_email_registration_msg",
+			"index_header.tpl",
+			"Welcome,",
+			"imagesLoaded",
+			"lazyload",
+			"	\n",
+			"urlAccess",
+			"verify",
+			"registerUser",
+			"Download app from",
+			"mar-bottom30 popularImage",
+			"clearfix border-bottom-e5e5e5 mar-top15 mar-bottom15",
+			"trip_name col-lg-12 col-md-12 col-sm-12 col-xs-12 roboto_font font-color-333333 pad-bottom0 font-size-24px text-center mar-bottom50",
+			"912711845435315",
+			"mar-bottom30 popularImage",
+			"text-align: center;",
+			"footer.tpl",
+			">\n",
+			".\n",
+			";\">",
+			"you",
+			"container",
+			">\n",
+			"{include",
+			"STORE_BASE_PATH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"2016-03-03",
+			"2016-03-02",
+			"txtProfile",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 171.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.tern_arghint":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "node.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"node.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

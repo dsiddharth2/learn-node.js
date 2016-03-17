@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"ternjs": {
+	    "exclude": ["wordpress/**", "node_modules/**"],
+	    "libs": ["ecma5", "browser", "jquery"],
+	    "plugins": {
+	        "requirejs": {
+	            "baseURL": "./js"
+	        },
+	    }
+	}
+}

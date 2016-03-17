@@ -1,0 +1,132 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('lesson6-buildcss:server');
+var http = require('http');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+var server = http.createServer(app);
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+var io = require('socket.io').listen(server);
+var mysql = require('mysql');
+var pool      =    mysql.createPool({
+    connectionLimit : 100, //important
+    host     : 'localhost',
+    user     : 'root',
+    password : 'ideaflask',
+    database : 'polling_app',
+    debug    :  false
+});
+
+io.sockets.on('connection', function (socket) {
+  pool.getConnection(function(err, connection){
+    if (err) {
+      connection.release();
+      return;
+    }
+    
+    var query = "select (SELECT count(*) FROM `votes` WHERE `vote` = 'yes') as `yes_counts`, (SELECT count(*) FROM `votes` WHERE `vote` = 'no') as `no_counts`,(select count(*) from `votes`) as `total`";
+    connection.query(query, function(err, rows){
+      connection.release();
+        if(!err) {
+          var send_data = {
+            'yes': 0,
+            'no' : 0,
+            'total': 0
+          };
+          for (var i = 0; i < rows.length; i++) {
+            send_data.yes = rows[i].yes_counts;
+            send_data.no = rows[i].no_counts;
+            send_data.total = rows[i].total;
+          };
+          io.emit('counts', send_data);
+        }
+    });
+
+    connection.on('error', function(err) {
+      res.json({"code" : 100, "status" : "Error in connection database"});
+      return;
+    });
+  });
+});
+app.set('socketio', io);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
